@@ -1,0 +1,26 @@
+# Site settings
+title: dock6 Development
+tagline: Project updates & development log
+description: >-
+  Tracking development progress, new features, and changes
+  in the dock6 molecular docking software.
+url: "https://flurgles.github.io"
+author: flurgles
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+paginate: 5
+paginate_path: "/page:num/"
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "flurgles"
