@@ -12,6 +12,7 @@ vendor/
 
 # pi coding agent config
 .pi/
+CLAUDE.md
 
 # Editor
 *.swp
