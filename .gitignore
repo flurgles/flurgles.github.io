@@ -1,3 +1,4 @@
+# Jekyll build output
 _site/
 .sass-cache/
 .jekyll-cache/
@@ -5,3 +6,14 @@ _site/
 Gemfile.lock
 vendor/
 .bundle/
+
+# macOS
+.DS_Store
+
+# pi coding agent config
+.pi/
+
+# Editor
+*.swp
+*.swo
+*~
